@@ -49,18 +49,14 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
+			<artifactId>spring-test</artifactId>
 			<version>4.2.2.RELEASE</version>
+			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
-			<version>5.0.7.RELEASE</version>
-		</dependency>
+
 
 
 

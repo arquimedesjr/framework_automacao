@@ -8,6 +8,7 @@ Scenario Outline: Test
 	Examples:
 	|URL						  |texto     |
 	|https://translate.google.com/|texto	 |
+	|https://translate.google.com/|oi		 |
 	
 	
 		
