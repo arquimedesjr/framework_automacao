@@ -1,8 +1,12 @@
 Feature: Automação Mobile
 
-Scenario: Test
+Scenario Outline: Test
 
 	Given inicio a conexao com o appium
+	When clico no menu
+	And clico no numero "<numero>"
 	
-	
+	Examples:
+	|numero|
+	|2	   |
 	
